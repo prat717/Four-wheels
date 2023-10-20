@@ -1,0 +1,538 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(fonts/Poppins-Thin.ttf);
+    font-weight: 300;
+}
+
+:root{
+    --secondary-color:#fff0f3;
+    --primary-color:#d2042d;
+}
+
+*{
+    font-family: 'poppins';
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1em;
+   
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1rem;
+   
+
+}
+
+
+
+p {
+    font-weight: 400;
+    font-size: 0.8rem;
+   
+
+}
+
+a {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.container {
+    margin-inline: auto;
+    width: 1300px;
+    padding: 50px 0 0 0;
+    align-items: center;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color:#d2042d ;
+    color: white;
+    font-weight:500;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+}
+
+button:hover{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight:500;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: 1s;
+    transition-timing-function: ease;
+    font-size: 0.8rem;
+
+}
+
+.sec-button{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-weight:500;
+    font-size: 1rem;
+    border-radius: 6px;
+    transition: 1s;
+    transition-timing-function: ease;
+    font-size: 0.8rem;
+
+}
+
+.sec-button:hover{
+    width: 180px;
+    height: 50px;
+    background-color:#d2042d ;
+    color: white;
+    font-weight:500;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
+
+}
+
+.navbar{
+    height: 8vh;
+}
+
+.navbar .container{
+    justify-content: space-between;
+    padding: 0;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-items{
+    width: 30%;
+    justify-content: space-between;
+}
+
+.nav-logo span{
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.nav-logo h3{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.navbar a{
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    color: var(--primary-color);
+}
+
+.hero-sec{
+    height: 700px;
+    position: relative;
+}
+
+.hero-sec.container{
+    padding: 0;
+}
+
+.hero-sec span{
+    color: var(--primary-color);
+}
+
+.hero-sec.flex{
+    flex-direction: column;
+}
+
+.hero-sec .upper{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    align-items: center;
+}
+
+.hero-sec .upper .left{
+    width: 45%;
+    justify-content: start;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.hero-sec .upper .left h1{
+margin-bottom: 150px;
+}
+
+.hero-sec .lower{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.hero-sec .upper .right{
+    width: 55%;
+    height: 100%;
+    /* background-image: url(images/car1\ bg.png);
+    background-size: fill;
+    background-repeat: no-repeat; */
+    position: relative;
+    
+}
+
+.hero-sec .upper .right img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    position: absolute;
+    left: 0;
+   
+}
+
+
+.hero-sec .lower .box{
+    justify-content: space-between;
+    width: 30%;
+    height: 80px;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 10px rgb(190, 190, 190);
+    padding: 0 20px;
+}
+
+/* sec2 */
+
+.sec2{
+    height: 600px;
+    justify-content: start;
+    flex-direction: column;
+}
+.sec2.container{
+    margin-top: 150px;
+    padding: 0;
+}
+
+.sec2 .title{
+    width: 200px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.sec2 .heading{
+    margin-top: 2%;
+}
+
+.sec2 .main{
+    width: 70%;
+    justify-content: space-around;
+    height: 60%;
+}
+.sec2 .sub-main{
+    height: 100%;
+    justify-content: start;
+    
+}
+
+.sec2 .sub-main .lower{
+    margin-top: 30px;
+    flex-direction: column;
+    height: 20%;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+}
+.sec2 .sub-main .lower p{
+    color: grey;
+}
+
+.sec2 .sub-main.flex{
+    flex-direction: column;
+}
+.sec2 .sub-main img{
+    width: 100px;
+}
+
+/* sec3 */
+
+.sec3{
+    height: 700px;
+
+}
+
+.sec3 .left{
+    height: 100%;
+    width: 60%;
+    position: relative;
+    /* background-image: url(images/Path\ 9.png);
+    background-position: center;
+    background-size: fills; */
+}
+
+
+.sec3 .right{
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.sec3 .title{
+    width: 200px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.sec3 .heading, .main{
+    margin-top: 50px;
+    
+}
+.sec3 .sub-main{
+    height: 20%;
+    width: 100%;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.sec3 .sub-main img{
+width: 80px;
+object-fit: contain;
+}
+
+.sec3 .sub-main .right{
+    padding-left: 20px;
+    height: 100%;
+    justify-content: start;
+}
+
+
+.sec3 .main{
+    flex-direction: column;
+    justify-content: start;
+    height: 60%;
+}
+.sec3 .main p{
+    color: grey;
+    margin-top: 10px;
+}
+
+.sec3 .main .left{
+    height: 100%;
+    width: 15%;
+}
+
+.sec3 .left img{
+  
+    position: absolute;
+    right: 0;
+    object-fit: fill;
+    height: 100%;
+}
+
+/* sec4 */
+
+.sec4{
+    height: 700px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec4 .title{
+    width: 200px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.sec4 .main{
+    height: 60%;
+    width: 100%;
+    justify-content: space-between;
+}
+.sec4 .main .card{
+    height: 90%;
+    width: 20%;
+    box-shadow: 1px 1px 10px grey;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+.sec4 .main .card .upper{
+    width: 100%;
+    height: 40%;
+    
+   
+
+}
+.sec4 .main .card .upper .pic{
+    height: 100%;
+    width: 100%;
+
+    background-image: url(/images/car\ pic\ 1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec4 .lower{
+    width: 100%;
+    height: 60%;
+    padding: 20px 0 0  0;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.sec4 .lower button{
+    width: 100%;
+    height: 25%;
+}
+
+.sec4 .lower p{
+    color: grey;
+    font-size: 0.8rem;
+}
+.sec4 .lower span{
+    color: grey;
+}
+
+.sec4 .lower h3{
+    font-size: 1rem;
+}
+
+
+/* footer */
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin-top: 50px;
+    color: white;
+}
+
+.footer .container{
+    height: 100%;
+}
+
+.footer.flex{
+    flex-direction: column;
+}
+
+.footer .upper{
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.footer .div{
+    height: 100%;
+    
+}
+.footer .div.flex{
+    flex-direction: column;
+    justify-content: start;
+}
+
+
+
+
+.footer .div .address img{
+    object-fit: contain;
+}
+
+.footer .div .div1-para{
+    padding-left: 10px;
+}
+
+.footer .div .phone{
+   width: 100%;
+    justify-content: start;
+}
+
+.footer .div .mail{
+    width: 100%;
+     justify-content: start;
+ }
+
+.footer .info {
+    margin-top: 20px;
+    height: 35%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer .div .links {
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.footer a{
+    color: white;
+}
+
+
+.footer .lower p{
+    text-align: center;
+}
